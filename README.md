@@ -1,6 +1,6 @@
 # A CHIP-8 Emulator
 
-[Demo](./pic.png)
+![Demo](./pic.png)
 
 ## Features
 
