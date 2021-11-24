@@ -1,0 +1,14 @@
+cargo-features = ["strip"]
+
+[package]
+name = "chip8"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rand = "0.8.4"
+sdl2 = { version = "0.35.1", features = [ "static-link", "bundled" ] }
+
+[profile.release]
+strip = true
+panic = "abort"
